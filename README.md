@@ -1,20 +1,20 @@
 # 5MD-twilioverse
-Demo de 5 minutos primeros pasos usando Twilio
+5 minutes Demo first steps using Twilio
 
-Preparación
-- Verificar que el endpoint GET http://localhost:4567/web funciona
-- Iniciar ngrok hacia el puerto http 4567
-- Abrir la consola de Twilio en la sección de números de teléfono.
+Preparation
+- Make sure the endpoint GET http://localhost:4567/web is working.
+- Start ngrok to port http 4567.
+- Open Twilio's console in the numbers section.
 
 Demo
-- Explicar como funcionan los webhooks en twilio aplicados a sms entrantes y salientes.
-- Comprar un número de telefono.
-- Implementar el webhook para sms.
-- Probar el webhook con curl -X POST http://localhost:4567/sms  
-- Configurar el webhook de sms en el telefono usando http://zzzzz.ngrok.io/sms
-- Pedir a asistentes que envien un sms.
-- Explicar webhooks para llamadas de voz entrantes y salientes.
-- Implementar el webhook para voz.
-- Probar el webhook con curl -X POST http://localhost:4567/voz
-- Configurar el webhook de voz en el telefono usando http://zzzzz.ngrok.io/voz
-- Pedir a asistentes que llamen.
+- Explain how webhooks can be applied to inbound / outbound sms with Twilio.
+- Buy a new phone.
+- Code the sms webhook.
+- Test the webhook using curl -X POST http://localhost:4567/sms  
+- Configure the ngrok version of the webhook http://zzzzz.ngrok.io/sms as sms webhook in the phone number
+- Prompt people to send an SMS.
+- Explain how webhooks can be applied to inbound / outbound voice calls with Twilio.
+- Code the voice webhook.
+- Test the webhook using curl -X POST http://localhost:4567/voz 
+- Configure the ngrok version of the webhook http://zzzzz.ngrok.io/voz as voice webhook in the phone number
+- Prompt people to make a call to the number.
